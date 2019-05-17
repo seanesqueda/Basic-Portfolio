@@ -1,22 +1,16 @@
 * {
     box-sizing: border-box;
 }
-html{
-    height: 100%;
-}
 body{
     background-image: url(../Images/memphis-mini.png);
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+    margin: 0;
 }
 #pageheader{
     width: 100%;
-    height: 0px;
+    height: 87px;
     background-color: #ffffff;
     border-bottom: solid 2px #cccccc;
     margin-bottom: 20px;
-    flex: 1 0 auto;
 }
 #myname{
     position: relative;
@@ -55,8 +49,8 @@ body{
     width: 960px;
     border: solid 1px #dddddd;
     left: 200px;
-    flex: 1 0 auto;
     margin-bottom: 20px;
+    min-height: calc(100vh - 60px);
 }
 .bodyheader{
     position: relative;
@@ -84,8 +78,10 @@ body{
     margin-right: 40px;
 }
 .footer{
-    flex-shrink: 0;
-    padding: 20px;
-    background-color: #666666;
     border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    height: 60px;
+}
+#form{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
