@@ -125,13 +125,42 @@ body{
     color: #ffffff;
     text-align: center;
 }
-.span2{
+#span2{
     position: absolute;
+    left: 24px;
+    top: 500px;
     background-color: #4aaaa5;
     padding: 15px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 18px;
     height: 50px;
+    width: 255px;
+    color: #ffffff;
+    text-align: center;
+}
+#span3{
+    position: absolute;
+    top: 500px;
+    left: 348px;
+    background-color: #4aaaa5;
+    padding: 15px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18px;
+    height: 50px;
+    width: 255px;
+    color: #ffffff;
+    text-align: center;
+}
+#span4{
+    position: absolute;
+    left: 24px;
+    bottom: 35px;
+    background-color: #4aaaa5;
+    padding: 15px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18px;
+    height: 50px;
+    width: 255px;
     color: #ffffff;
     text-align: center;
 }
