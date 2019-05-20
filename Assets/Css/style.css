@@ -135,3 +135,36 @@ body{
     color: #ffffff;
     text-align: center;
 }
+#formstyle{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin: 30px;
+    margin-left: 35px;
+    margin-right: 35px;
+    
+}
+.input1{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+#textarea{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+#button{
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
